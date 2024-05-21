@@ -1,0 +1,522 @@
+.responsive-div {
+  position: relative;
+  max-width: 100%;
+  max-height: 70%;
+}
+
+.responsive-div img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.image-text {
+  position: absolute;
+  bottom: 10px; /* Adjust this value to change the text's position from the bottom */
+  left: 10px; /* Adjust this value to change the text's position from the left */
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  font-size: 16px;
+}
+/* aboutsection */
+#about{
+  height: auto;
+  width: auto;
+}
+#abtext{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+#readmorebutton{
+  margin: auto;
+  width: 10%;
+  padding: 10px;
+}
+#signimg{
+  margin: auto;
+  width: 30%;
+  padding: 10px;
+}
+
+/* aboutsectiondone */
+#line{
+  background-color: yellow;
+  height:2px;
+  border: none;
+  width: 90%;
+}
+/* hrlinedone */
+#training{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 100px;
+  gap: 10px;
+}
+.insidetrain{
+  height: auto;
+  width: auto;
+  padding: 10px;
+}
+.training{
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+#comtext{
+  text-align: center;
+}
+#crtext{
+  text-align: center;
+}
+#mindtext{
+  text-align: center;
+}
+#aol{
+  text-align: center;
+}
+#aboutaol{
+  float: left;
+  width: 40%;
+  padding: 30px;
+}
+#kmbut{
+  padding-bottom: 5px;
+  width: 100px;
+  background-color: yellow;
+  text-align: center;
+  font-weight: 500;
+}
+#knowmore{
+  text-decoration: none;
+}
+.hr{
+background-color: white;
+}
+#wisdom{
+  height: auto;
+  width: 100%;
+  align-items: center;
+  background-image: linear-gradient(to right, #9E768F , #9FA4C4);
+}
+#quote1{
+  text-align: center;
+  font-size: x-large;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  bottom: 10px;
+}
+hr{
+  width: 100%;
+  height: 5px;
+  border: none;
+}
+#quote2{
+  font-size: larger;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+#sriimg{
+  font-size: large;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  float: center;
+}
+#sriname{
+  font-size: large;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+#founder{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+#center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#cards{
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 20px;
+  padding-right: 20px;
+  gap: 10px;
+}
+.card1{
+  height: auto;
+  width: auto;
+  box-shadow: 0px 0px 38px 0px rgba(0,0,0,0.3),
+0px 15px 12px 0px rgba(0,0,0,0.22);
+}
+.cheading{
+  text-align: center;
+  font-weight: lighter;
+}
+.ullist{
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+}
+.liitem{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: relative;
+}
+#exp{
+  margin: auto;
+  width: 87%;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.flip-card {
+  background-color:transparent;
+  width: 250px;
+  height: 440px;
+  perspective: 800px;
+}
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 120%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.flip-card-front {
+  background-color: skyblue;
+  color: black;
+}
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+@media(max-width:767px){
+  #btleft{
+    height: 50px;
+    width: 48%;
+    position: absolute;    
+    top: 140px; 
+    left: 20px;
+  }
+  #btleft p{
+    display: none ;
+  }
+}
+#ytsection{
+  background-image: linear-gradient(to right, #5280c4, #8778c0, #af70af, #c96a97, #d66c7a);
+  height: auto;
+  width: 100%;
+  align-items: center;
+}
+#ytvid{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+.fa fa-video-camera{
+  color: aliceblue;
+}
+#vidtext{
+  font-size: x-large;
+  font-weight: 500;
+  font-stretch: semi-expanded;
+}
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio (height/width) */
+  overflow: hidden;
+}
+
+/* Styles for the embedded YouTube video */
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.but{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  background-color:yellowgreen;
+  text-align: center;
+}
+.butlink{
+  text-decoration: none;
+  font-size: large;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#socialmedia{
+  align-items: center;
+  margin: auto;
+  padding-left: 40px;
+  width: 80%;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  text-decoration: none;
+}
+#fb{
+  border: 1px solid black;
+}
+#insta{
+  border: 1px solid black;
+}
+#twitter{
+  border: 1px solid black;
+}
+.profile{
+  padding-left: 50px;
+ height: auto;
+ width: 45%;
+text-decoration: none;
+}
+#ig{
+  color: black;
+}
+#twt{
+  color: skyblue;
+}
+#cont{
+  text-align: center;
+}
+.resimg{
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+.mail{
+  background: url(mail.jpg);
+  height: 200px;
+  width: 100%;
+}
+.mail1{
+  margin: auto;
+  width: 50%;
+  height: 50%;
+  padding: 10px;
+}
+.pmail{
+  padding-top: 70px;
+  text-align: center;
+}
+.footer{
+
+  width: 100%;
+  height: auto;
+}
+.sfoot{
+  background: url(formbg.jpeg);
+}
+.form{
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+}
+.form-group {
+  margin: 1px ;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],input[type="email"],input[type="tel"],
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 1px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+.fbutton{
+  width: 25%;
+  margin: auto;
+  padding: 10px;
+}
+/*
+    Auther: Abdelrhman Said
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus,
+*:active {
+  outline: none !important;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html,
+body {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  place-items: center;
+  background: linear-gradient(315deg, #ffffff, #d7e1ec);
+}
+
+.wrapper {
+  display: inline-flex;
+  list-style: none;
+}
+
+.wrapper .icon {
+  position: relative;
+  background: #ffffff;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background: #ffffff;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: #ffffff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+  background: #1877F2;
+  color: #ffffff;
+}
+
+.wrapper .twitter:hover,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before {
+  background: #1DA1F2;
+  color: #ffffff;
+}
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+  background: #E4405F;
+  color: #ffffff;
+}
+
+.wrapper .github:hover,
+.wrapper .github:hover .tooltip,
+.wrapper .github:hover .tooltip::before {
+  background: #333333;
+  color: #ffffff;
+}
+
+.wrapper .youtube:hover,
+.wrapper .youtube:hover .tooltip,
+.wrapper .youtube:hover .tooltip::before {
+  background: #CD201F;
+  color: #ffffff;
+}
+.link{
+  color:black;
+  text-decoration: none;
+}
+.link:hover{
+  color: black;
+}
+.smicon{
+  width: 30%;
+  margin: auto;
+  padding: 10px;
+}
